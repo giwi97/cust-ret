@@ -46,3 +46,15 @@ Route::delete("/upcoming/{taskId}", function($taskId) {
 
     return 204;
 });
+
+//add daily task
+
+Route::post('/dailytask', function(Request $request){
+
+    return Today::create([
+        'id' => $request->id,
+        'title' => $request->title,
+        'taskId' => $request->taskId
+    ]);
+
+});
