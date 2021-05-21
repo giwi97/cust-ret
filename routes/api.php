@@ -63,4 +63,5 @@ Route::post('/dailytask', function(Request $request){
 
 Route::delete('/dailytask/{taskId}', function($taskId) {
     DB::table('todays')->where('taskId', $taskId)->delete();
+    return 204;
 });
