@@ -42,7 +42,7 @@ Route::post("/upcoming", function (Request $request) {
 //Delete task 
 
 Route::delete("/upcoming/{taskId}", function($taskId) {
-    DB::table('upcomings')->where('taskId', $taskId)->delete():
+    DB::table('upcomings')->where('taskId', $taskId)->delete();
 
     return 204;
 });
