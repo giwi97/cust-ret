@@ -3,6 +3,8 @@
 use App\Models\Upcoming;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Resources\UpcomingResource;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +21,28 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-//Upcoming Task
+//All Upcoming Task
 
 Route::get("/upcoming", function(){
     $upcoming = Upcoming::all();
 
-    return $upcoming;
+    return UpcomingResource::collection($upcoming);
+});
+
+//Add new task
+
+Route::post("/upcoming", function (Request $request) {
+    return Upcoming::create([
+        'title' => $request->title,
+        'taskId' => $request->taskId,
+        'waiting' => $request->waiting
+    ]);
+});
+
+//Delete task 
+
+Route::delete("/upcoming/{taskId}", function($taskId) {
+    DB::table('upcomings')->where('taskId', $taskId)->delete():
+
+    return 204;
 });
