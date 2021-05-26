@@ -1907,6 +1907,74 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -1922,74 +1990,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 //
 //
 //
@@ -6504,14 +6504,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*!****************************************!*\
   !*** ./resources/images/hamburger.png ***!
   \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/hamburger.png?e9182569a2cf520bd8a959faee3572f6");
+module.exports = "/images/hamburger.png?e9182569a2cf520bd8a959faee3572f6";
 
 /***/ }),
 
@@ -6519,14 +6514,19 @@ __webpack_require__.r(__webpack_exports__);
 /*!**************************************!*\
   !*** ./resources/images/overlay.png ***!
   \**************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/overlay.png?5ec684d7c53b50e8d0b494e645d7d068");
+module.exports = "/images/overlay.png?5ec684d7c53b50e8d0b494e645d7d068";
+
+/***/ }),
+
+/***/ "./resources/images/plus.png":
+/*!***********************************!*\
+  !*** ./resources/images/plus.png ***!
+  \***********************************/
+/***/ ((module) => {
+
+module.exports = "/images/plus.png?c046340c1e218a064d17c1ad149483ec";
 
 /***/ }),
 
@@ -6534,14 +6534,9 @@ __webpack_require__.r(__webpack_exports__);
 /*!*************************************!*\
   !*** ./resources/images/search.png ***!
   \*************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/search.png?0a54c500144c90d8371209115d7021cd");
+module.exports = "/images/search.png?0a54c500144c90d8371209115d7021cd";
 
 /***/ }),
 
@@ -37846,31 +37841,6 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RightBody.vue?vue&type=template&id=4a238d03&":
-/*!*********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RightBody.vue?vue&type=template&id=4a238d03& ***!
-  \*********************************************************************************************************************************************************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* binding */ render),
-/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
-/* harmony export */ });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
   return _vm._m(0)
 }
 var staticRenderFns = [
@@ -37911,7 +37881,7 @@ var staticRenderFns = [
             _c("span", [_vm._v("PT")])
           ]),
           _vm._v(" "),
-          _c("h6", [_vm._v("Development")])
+          _c("h6", [_vm._v("Design")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "a-project" }, [
@@ -37921,7 +37891,7 @@ var staticRenderFns = [
             _c("span", [_vm._v("PT")])
           ]),
           _vm._v(" "),
-          _c("h6", [_vm._v("Development")])
+          _c("h6", [_vm._v("Testing")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "a-project" }, [
@@ -37931,7 +37901,7 @@ var staticRenderFns = [
             _c("span", [_vm._v("PT")])
           ]),
           _vm._v(" "),
-          _c("h6", [_vm._v("Development")])
+          _c("h6", [_vm._v("Article Draft")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "a-project" }, [
@@ -37941,22 +37911,47 @@ var staticRenderFns = [
             _c("span", [_vm._v("PT")])
           ]),
           _vm._v(" "),
-          _c("h6", [_vm._v("Development")])
+          _c("h6", [_vm._v("Landing Page")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "a-project" }, [
           _c("div", { staticClass: "box-color" }, [
-            _c("img", { attrs: { src: __webpack_require__(/*! ../../images/overlay.png */ "./resources/images/overlay.png") } }),
+            _c("img", { attrs: { src: __webpack_require__(/*! ../../images/plus.png */ "./resources/images/plus.png") } }),
             _vm._v(" "),
             _c("span", [_vm._v("PT")])
           ]),
           _vm._v(" "),
-          _c("h6", [_vm._v("Development")])
+          _c("h6", [_vm._v("Add Project")])
         ])
       ])
     ])
   }
 ]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RightBody.vue?vue&type=template&id=4a238d03&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RightBody.vue?vue&type=template&id=4a238d03& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div")
+}
+var staticRenderFns = []
 render._withStripped = true
 
 
