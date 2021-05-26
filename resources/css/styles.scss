@@ -21,3 +21,37 @@
     font-weight: normal;
     src: url("../font/MYRIADPRO-BOLD.OTF");
 }
+
+:root {
+    --primary1: #5D2A42;
+    --primary2: #FB6376;
+    --customblue: #0026FF;
+    --custompink: #FF3250;
+    --customeyellow: #FFBB00;
+    --customgreen: #07E642;
+    --custompurple: #894FC6;
+    --customdarkblue: #121432;
+    --white: #ffffff;
+    --customgrey: #707070;
+    --customgreen1: #15D4A1;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    position: relative;
+    font-family: "MyriadProRegular";
+    background-color: var(--primary1);
+
+    &::-webkit-scrollbar {
+        display: none;
+        scrollbar-width: 0px;
+    }
+}
