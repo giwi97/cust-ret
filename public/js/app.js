@@ -1994,6 +1994,33 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
 
 /***/ }),
@@ -6500,6 +6527,16 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 /***/ }),
 
+/***/ "./resources/images/add.png":
+/*!**********************************!*\
+  !*** ./resources/images/add.png ***!
+  \**********************************/
+/***/ ((module) => {
+
+module.exports = "/images/add.png?519c505f9e0cf8feff3dda54bd85b182";
+
+/***/ }),
+
 /***/ "./resources/images/hamburger.png":
 /*!****************************************!*\
   !*** ./resources/images/hamburger.png ***!
@@ -6507,6 +6544,16 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /***/ ((module) => {
 
 module.exports = "/images/hamburger.png?e9182569a2cf520bd8a959faee3572f6";
+
+/***/ }),
+
+/***/ "./resources/images/horizontal.png":
+/*!*****************************************!*\
+  !*** ./resources/images/horizontal.png ***!
+  \*****************************************/
+/***/ ((module) => {
+
+module.exports = "/images/horizontal.png?4e8d45091c2e0616ba7a04da5e1b07aa";
 
 /***/ }),
 
@@ -37949,9 +37996,47 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div")
+  return _vm._m(0)
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { attrs: { id: "righ" } }, [
+      _c("h1", [_vm._v("Development CRM")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "horizontal" }, [
+        _c("img", {
+          attrs: {
+            src: __webpack_require__(/*! ../../images/horizontal.png */ "./resources/images/horizontal.png"),
+            alt: "horizontal"
+          }
+        })
+      ]),
+      _vm._v(" "),
+      _c("p", [
+        _vm._v(
+          "\n        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio\n        mollitia eos quis fugit pariatur, rem maiores, blanditiis, est earum\n        temporibus ipsum harum! Cumque voluptatum, esse dicta nihil tempore\n        perferendis sint!\n    "
+        )
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "task" }, [
+        _c("div", { staticClass: "add-tasks" }, [
+          _c("h2", [_vm._v("Today's Tasks")]),
+          _vm._v(" "),
+          _c("div", { staticClass: "add-action" }, [
+            _c("img", {
+              attrs: { src: __webpack_require__(/*! ../../images/add.png */ "./resources/images/add.png"), alt: "add" }
+            })
+          ])
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "tasks-list" })
+      ])
+    ])
+  }
+]
 render._withStripped = true
 
 
