@@ -46,3 +46,12 @@ body {
   body::-webkit-scrollbar {
     display: none;
     scrollbar-width: 0px; }
+
+img {
+  user-select: none; }
+
+.mcontainer #body {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "Left Right";
+  padding: 16px; }
